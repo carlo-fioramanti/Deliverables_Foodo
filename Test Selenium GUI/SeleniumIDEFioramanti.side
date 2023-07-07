@@ -1,0 +1,56 @@
+{
+  "id": "c66c138a-96a3-4830-8121-806f71fe7622",
+  "version": "2.0",
+  "name": "SeleniumIDEFioramanti",
+  "url": "https://mathdf.com/der/it/",
+  "tests": [{
+    "id": "70765b26-bc8e-43b4-aaed-4abdf016c3fd",
+    "name": "Untitled",
+    "commands": [{
+      "id": "de7d942d-6397-48f3-8bf0-dc6eb2891007",
+      "comment": "",
+      "command": "open",
+      "target": "https://mathdf.com/der/it/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d36b064-8798-43a0-bbd0-a37947405f44",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1300x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a7696921-89dd-4dc4-b416-22c0352d5264",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-expression",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "691725c0-f0a5-47db-a3e1-86597592f057",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-expression",
+      "targets": [],
+      "value": "3x"
+    }, {
+      "id": "0d45649d-c51b-49e0-8516-7af5573e08e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=solve",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c8edfd2c-1fbe-4721-912d-d54e61813042",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["70765b26-bc8e-43b4-aaed-4abdf016c3fd"]
+  }],
+  "urls": ["https://mathdf.com/der/it/"],
+  "plugins": []
+}

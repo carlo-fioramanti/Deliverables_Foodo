@@ -1,0 +1,64 @@
+{
+  "id": "6360310e-81ae-4208-bc9b-cbf23122da38",
+  "version": "2.0",
+  "name": "https://www.convertire-unita.info/convertire+Metro+al+secondo+in+Chilometro+orario.php",
+  "url": "https://www.convertire-unita.info/convertire+Chilometro+orario+in+Metro+al+secondo.php",
+  "tests": [{
+    "id": "15ed7281-cd0d-4026-9d77-e2eed55a79c7",
+    "name": "Untitled",
+    "commands": [{
+      "id": "9d8e09db-cf0f-42be-9edf-797022298c84",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.convertire-unita.info/convertire+Chilometro+orario+in+Metro+al+secondo.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0a444bcc-8947-4f32-b43c-317212f0d4c7",
+      "comment": "",
+      "command": "click",
+      "target": "valore",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "61fa9d7a-535f-4789-9647-a393fad64ed2",
+      "comment": "",
+      "command": "type",
+      "target": "valore",
+      "targets": [],
+      "value": "2"
+    }, {
+      "id": "83dcf54a-0a45-440a-ba27-adae2a9f14c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(5) > input",
+      "targets": [
+        ["css=p:nth-child(5) > input", "css:finder"],
+        ["xpath=//input[@value='convertire']", "xpath:attributes"],
+        ["xpath=//p[5]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81f461e6-2a91-4972-a0f7-1b378f11dd22",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong:nth-child(3)",
+      "targets": [
+        ["css=strong:nth-child(3)", "css:finder"],
+        ["xpath=//div[3]/strong", "xpath:position"],
+        ["xpath=//strong[contains(.,'0,555 555 555 555 56 Metro al secondo [m/s]')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4b852a0e-22d5-4079-845d-428f50e6d6e3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["15ed7281-cd0d-4026-9d77-e2eed55a79c7"]
+  }],
+  "urls": ["https://www.convertire-unita.info/convertire+Metro+al+secondo+in+Chilometro+orario.php", "https://www.convertire-unita.info/convertire+Chilometro+orario+in+Metro+al+secondo.php"],
+  "plugins": []
+}
